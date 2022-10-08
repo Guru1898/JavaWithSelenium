@@ -1,0 +1,26 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main
+{
+  public static void main (String[]args) throws java.lang.Exception
+  {
+    Scanner sc = new Scanner (System.in);
+    int a = sc.nextInt ();
+int b=sc.nextInt();
+int d=Math.max(a,b);
+int lcm=d;
+while(true)
+{
+    if(lcm%a==0&&lcm%b==0)
+    {
+
+break;    }
+lcm++;
+}
+        System.out.println(lcm);
+
+
+  }
+}
